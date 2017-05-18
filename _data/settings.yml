@@ -90,10 +90,10 @@ clients:
   title: 'The Grim Sweeper, @KimmysSweeps.',
   quote: '<p><strong>Yea, I guess shes good at cameras or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
   logo: 'logo3.jpg'}
-- {avatar: 'face-teleject.jpg',
-  name: 'Cleatus Cassidy',
-  title: 'VP of Helmut, Lorem Sorem LLC.',
-  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
+- {avatar: 'face-4.jpg',
+  name: 'David Moon',
+  title: 'Owner & manager of, MoonGlow Entertainment.',
+  quote: '<p><strong>Yeah of course Megan was an awesome karaoke host</strong>I gotta business to run. Click.</p>',
   logo: 'logo4.png'}
 
 
