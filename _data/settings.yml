@@ -39,7 +39,7 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Megan specializes in studio photography** Kids and families.
+  **Megan specializes in studio photography** She's great with kids and families. She also engineers highly professional pet portraits so your cat or dog looks great on their new business cards. 
   Megan also loves outdoor active [Photography](https://www.facebook.com/nowuseemephoto/){:target="_blank"},
   but she also puts effort into nitting [next-level fashion](https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/16265820_10101690632416287_4231435634371597839_n.jpg?oh=b3fe590ba5fd3e123a4270a54bde5cf7&oe=59B51B86){:target="_blank"}
   
@@ -75,15 +75,15 @@ projects:
 # Clients Section
 
 clients:
-- {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
-  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
-  logo: 'logo1.png'}
+- {avatar: 'face.jpg',
+  name: 'Dana Danise',
+  title: 'Director of Design, Lifetouch.',
+  quote: '<p><strong>We all felt that Megan was a great</strong> asset to our team — and really worked hard to understand our products. I made sure she was retained full-time.</p>',
+  logo: 'Lifetouch-logo.jpg'}
 - {avatar: 'face-atariboy.jpg',
-  name: 'Hank McCoy',
+  name: 'Robert Allen',
   title: 'Eater of Salad, Antartica Int.',
-  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
+  quote: '<p><strong>Working with Megan was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
   logo: 'logo2.png'}
 - {avatar: 'face-jackiesaik.jpg',
   name: 'Stacy Lang',
