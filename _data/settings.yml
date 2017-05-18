@@ -93,8 +93,8 @@ clients:
 - {avatar: 'face-4.jpg',
   name: 'David Moon',
   title: 'Owner & manager of, MoonGlow Entertainment.',
-  quote: '<p><strong>Yeah of course Megan was an awesome karaoke host</strong>I gotta business to run. Click.</p>',
-  logo: 'logo4.png'}
+  quote: '<p><strong>Yeah of course Megan was an awesome karaoke host</strong>I gotta go... business to run... Click.</p>',
+  logo: 'logo4.jpg'}
 
 
 #-------------------------------
