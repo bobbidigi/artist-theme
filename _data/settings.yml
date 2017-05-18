@@ -85,11 +85,11 @@ clients:
   title: 'CEO, Allentowngroup Int.',
   quote: '<p><strong>Working with Megan was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
   logo: 'logo2.png'}
-- {avatar: 'face-jackiesaik.jpg',
-  name: 'Stacy Lang',
-  title: 'Social Media Girl, Quebec Int.',
-  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
-  logo: 'logo3.png'}
+- {avatar: 'face-3.jpg',
+  name: 'Kimmy Ripley',
+  title: 'The Grim Sweeper, @KimmysSweeps.',
+  quote: '<p><strong>Yea, I guess shes good at cameras or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
+  logo: 'logo3.jpg'}
 - {avatar: 'face-teleject.jpg',
   name: 'Cleatus Cassidy',
   title: 'VP of Helmut, Lorem Sorem LLC.',
