@@ -78,7 +78,7 @@ clients:
 - {avatar: 'face.jpg',
   name: 'Dana Danise',
   title: 'Director of Design, Lifetouch.',
-  quote: '<p><strong>We all felt that Megan was a great</strong> asset to our team — and really worked hard to understand our products. I made sure she was retained full-time.</p>',
+  quote: '<p><strong>We all felt that Megan is a great</strong> asset to our team — and really works hard to understand our products. I made sure she was retained full-time.</p>',
   logo: 'Lifetouch-logo.jpg'}
 - {avatar: 'face-2.jpg',
   name: 'Robert Allen',
