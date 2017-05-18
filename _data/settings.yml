@@ -80,9 +80,9 @@ clients:
   title: 'Director of Design, Lifetouch.',
   quote: '<p><strong>We all felt that Megan was a great</strong> asset to our team — and really worked hard to understand our products. I made sure she was retained full-time.</p>',
   logo: 'Lifetouch-logo.jpg'}
-- {avatar: 'face-atariboy.jpg',
+- {avatar: 'face-2.jpg',
   name: 'Robert Allen',
-  title: 'Eater of Salad, Antartica Int.',
+  title: 'CEO, Allentowngroup Int.',
   quote: '<p><strong>Working with Megan was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
   logo: 'logo2.png'}
 - {avatar: 'face-jackiesaik.jpg',
