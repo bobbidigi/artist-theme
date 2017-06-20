@@ -1,8 +1,4 @@
-h3
-  @extend %small-bold
-  color: $accent-light
-  text-align: center
-  padding: 100px 0 30px
+
 
 .face-lockup
   max-width: 780px
@@ -10,51 +6,55 @@ h3
   margin: 0 auto
   +align-items(center)
   +justify-content(space-between)
+.face-img
+  border-radius: 50%
+  background-size: cover
+  background-position: center
+  background-image: url(../img/#{$avatar-path})
+  +size(200px)
+  +order(3)
 
-  .face-img
-    border-radius: 50%
-    background-size: cover
-    background-position: center
-    background-image: url(../img/#{$avatar-path})
-    +size(200px)
-    +order(3)
+  
 
-  [class^="icon-"]
-    +size(100px)
-    background: $bgcolor
-    border-radius: 50%
+[class^="icon-"]
+  +size(100px)
+  background: $bgcolor
+  border-radius: 50%
 
-    path
-      fill: $accent
-
-    &.icon-pencil
-      +order(1)
-    &.icon-mouse
-      +order(2)
-    &.icon-browser
-      +order(4)
-    &.icon-video
-      +order(5)
+  &.icon-pencil
+    +order(1)
+  &.icon-mouse
+    +order(2)
+  &.icon-browser
+    +order(4)
+  &.icon-video
+    +order(5)
+path
+  fill: $accent
+    
 
 @media screen and (max-width: 650px)
   .face-lockup
-    display: block
+    /*display: block
     text-align: center
   div
-    display: inline-block
-    margin-top: -20px
+    /*display: block
+    
   .face-img
     +size(100px)
-    display: block
+    /*display: block
     background-repeat: no-repeat
     max-width: auto
     margin: 0 auto 
     
-  [class^="icon-"]
-    +size(20px)
-    border-radius: 5px
-    display: inline-block
-    margin: 10px
+  [class^="icon-"] 
+    +size(50px)
+    margin: 10px auto
+  
+  svg
+    max-width: 50px
+    /*display: inline-block
+    
     
 .blurb
   max-width: 620px
@@ -106,10 +106,12 @@ h3
 
 
 
-@media screen and (max-width: 541px)
+@media screen and (max-width: 551px)
+    
+   
   .skill-lockup
     width: 220px
 
-    .skill-unit
-      width: 220px
+  .skill-unit
+    width: 220px
    
