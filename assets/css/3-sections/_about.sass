@@ -6,6 +6,7 @@
   margin: 0 auto
   +align-items(center)
   +justify-content(space-between)
+    
 .face-img
   border-radius: 50%
   background-size: cover
@@ -29,8 +30,9 @@
     +order(4)
   &.icon-video
     +order(5)
-path
-  fill: $accent
+    
+  path
+    fill: $accent
     
 
 @media screen and (max-width: 650px)
@@ -107,8 +109,28 @@ path
 
 
 @media screen and (max-width: 551px)
+  .face-lockup
+    display: block
+    text-align: center
+  div
+    display: block
     
-   
+  .face-img
+    +size(90px)
+    display: block
+    background-position: center center
+    background-repeat: no-repeat
+    max-width: auto
+    
+  [class^="icon-"] 
+    display: inline-block
+    +size(40px)
+    margin: 10px
+  
+  svg
+    max-width: 40px
+    
+    
   .skill-lockup
     width: 220px
 
