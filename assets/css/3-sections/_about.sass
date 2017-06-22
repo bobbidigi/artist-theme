@@ -35,34 +35,35 @@
     fill: $accent
     
 
-@media screen and (max-width: 650px)
+@media screen and (max-width: 655px)
   .face-lockup
-    /*display: block
+    display: block
     text-align: center
   div
-    /*display: block
+    display: block
     
   .face-img
     +size(100px)
-    /*display: block
+    display: block
+    background-position: center center
     background-repeat: no-repeat
     max-width: auto
-    margin: 0 auto 
+    margin: 0 auto
     
   [class^="icon-"] 
     +size(50px)
-    margin: 10px auto
-  
+    margin: 3vh
+    display: inline-block
   svg
     max-width: 50px
-    /*display: inline-block
+    
     
     
 .blurb
   max-width: 620px
   padding: 0 20px
   margin: 50px auto
-  font-size: 24px
+  font-size: 22px
   text-align: center
   font-weight: 300
 
@@ -125,15 +126,39 @@
   [class^="icon-"] 
     display: inline-block
     +size(40px)
-    margin: 10px
-  
+    margin: 5vh 2.2vh
+    
   svg
     max-width: 40px
     
+  .blurb
+    font-size: 18px
     
   .skill-lockup
     width: 220px
+    margin: 50px auto
+    
+    .skill-unit
+      width: 220px
+    
+    .skill-icons
+      font-size: 0
+      margin: 3px 0 13px
+    
+      span
+        +size(2vh)
+        
+        &:after
+          +size(1.2vh)
+          
 
-  .skill-unit
-    width: 220px
-   
+    
+    
+@media screen and (max-width: 410px)
+  [class^="icon-"] 
+    display: inline-block
+    +size(32px)
+    margin: 5vh 2.2vh
+    
+  svg
+    max-width: 32px    
