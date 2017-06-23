@@ -47,12 +47,12 @@ blurb: >
 skills:
 - {name: Communication, value: '9'}
 - {name: Organization, value: '7'}
-- {name: creativity, value: '10'}
-- {name: technical expertise, value: '6'}
+- {name: Creativity, value: '10'}
+- {name: Technical expertise, value: '6'}
 - {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: self motivation, value: '8'}
-- {name: cooperation, value: '6'}
+- {name: Visual Design, value: '6'}
+- {name: Multi-tasking, value: '8'}
+- {name: Whip & Nae Nae, value: '5'}
 
 #-------------------------------
 # Work Section

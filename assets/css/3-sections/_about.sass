@@ -34,36 +34,11 @@
   path
     fill: $accent
     
-
-@media screen and (max-width: 655px)
-  .face-lockup
-    display: block
-    text-align: center
-  div
-    display: block
-    
-  .face-img
-    +size(100px)
-    display: block
-    background-position: center center
-    background-repeat: no-repeat
-    max-width: auto
-    margin: 0 auto
-    
-  [class^="icon-"] 
-    +size(50px)
-    margin: 3vh
-    display: inline-block
-  svg
-    max-width: 50px
-    
-    
-    
 .blurb
   max-width: 620px
   padding: 0 20px
   margin: 50px auto
-  font-size: 22px
+  font-size: 24px
   text-align: center
   font-weight: 300
 
@@ -106,10 +81,7 @@
 %skill-color
   background: $bgcolor
 
-
-
-
-@media screen and (max-width: 551px)
+@media screen and (max-width: 780px)
   .face-lockup
     display: block
     text-align: center
@@ -117,48 +89,98 @@
     display: block
     
   .face-img
-    +size(90px)
+    +size(150px)
     display: block
     background-position: center center
     background-repeat: no-repeat
     max-width: auto
+    margin: 0 auto
+    
+  [class^="icon-"] 
+    +size(50px)
+    margin: 10vh 5vh
+    display: inline-block
+  svg
+    max-width: 50px
+    
+  .blurb
+    padding: 0 15px
+    margin: 30px auto
+    font-size: 20px
+
+
+
+@media screen and (max-width: 700px)
+  .face-lockup
+    display: block
+    text-align: center
+  div
+    display: block
+    
+  .face-img
+    +size(110px)
+   
     
   [class^="icon-"] 
     display: inline-block
     +size(40px)
-    margin: 5vh 2.2vh
+    margin: 8vh 4vh
     
   svg
     max-width: 40px
     
   .blurb
-    font-size: 18px
+    max-width: 80%
+    padding: 5px 10px
+    margin: 20px auto
+    font-size: 18px    
     
+    span
+      margin-right: 2px  
+          
   .skill-lockup
-    width: 220px
+    max-width: 270px
     margin: 50px auto
-    
+    color: #999
+    +clearfix
+
+
     .skill-unit
-      width: 220px
-    
+      width: 135px
+      float: left
+
     .skill-icons
       font-size: 0
-      margin: 3px 0 13px
-    
-      span
-        +size(2vh)
-        
-        &:after
-          +size(1.2vh)
-          
+      margin: 1.5px 0 15px
 
-    
+      span
+        display: inline-block
+        +size(7px)
+        background-color: $accent
+        margin-right: 4px
+        border-radius: 50%
+
+        &:after
+          content: ''
+          display: block
+          +size(5px)
+          background: #fff
+          border-radius: 50%
+          margin: 1px
     
 @media screen and (max-width: 410px)
   [class^="icon-"] 
     display: inline-block
     +size(32px)
-    margin: 5vh 2.2vh
+    margin: 6vh 3vh
     
   svg
-    max-width: 32px    
+    max-width: 32px
+    
+@media screen and (max-width: 380px)
+  [class^="icon-"]
+    +size(30px)
+    margin: 4vh 2vh 
+    
+  svg
+    max-width: 30px
