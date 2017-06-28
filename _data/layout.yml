@@ -5,7 +5,7 @@ animation: "bounceOut"
 # Images
 
 logo: "logo.svg"
-hero1: "hero-bg-original"
+hero1: "hero-bg-original.jpg"
 hero: "hero-bg.jpg"
 avatar: "megatar.jpg"
 
