@@ -14,8 +14,8 @@ footer
         margin: 0
         text-transform: uppercase
         font-size: 12px
-        color: rgba(0,0,0,0.4)
-
+        color: fff    
+        
       a
         @extend %small-bold
         color: rgba(0,0,0,0.5)
@@ -24,3 +24,40 @@ footer
 
         &:hover
           color: rgba(0,0,0,0.7)
+        
+  @media screen and (max-width: 780px)
+    
+    .lockup
+      background-color: rgba(0,0,0,0.2)
+      
+      .content-wrap
+        
+        nav
+            
+          a
+            color: $documentBackgroundColor
+    
+        .copyright
+          color: $documentBackgroundColor
+        
+@media screen and (max-width: 540px)
+
+  .lockup
+    padding: 5px 5px
+    +clearfix
+    background-color: rgba(0,0,0,0.2)
+      
+    .content-wrap
+      margin-left: 0    
+    
+      nav
+            
+        a
+          color: $documentBackgroundColor
+          margin-right: 15px
+          font-size: 12px
+       
+      .copyright
+        color: $documentBackgroundColor
+        font-size: 10px
+        
