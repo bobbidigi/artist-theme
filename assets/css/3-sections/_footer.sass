@@ -27,37 +27,52 @@ footer
         
   @media screen and (max-width: 780px)
     
-    .lockup
-      background-color: rgba(0,0,0,0.2)
+  .lockup
+    background-color: rgba(0,0,0,0.2)
       
-      .content-wrap
+    .content-wrap
+      margin-left: 40px
         
-        nav
+      nav
             
-          a
-            color: $documentBackgroundColor
-    
-        .copyright
+        a
           color: $documentBackgroundColor
+    
+      .copyright
+        color: $documentBackgroundColor
         
 @media screen and (max-width: 540px)
 
   .lockup
-    padding: 5px 5px
-    +clearfix
-    background-color: rgba(0,0,0,0.2)
       
     .content-wrap
-      margin-left: 0    
+      margin-left: 20px    
     
       nav
             
         a
           color: $documentBackgroundColor
-          margin-right: 15px
+          margin-right: 10px
           font-size: 12px
        
       .copyright
         color: $documentBackgroundColor
         font-size: 10px
+        
+@media screen and (max-width: 440px)
+    
+  .lockup
+      
+    .content-wrap    
+      margin-left: 10px
+    
+      nav
+            
+        a
+          color: $documentBackgroundColor
+          margin-right: 4px
+          font-size: 10px
+       
+    .copyright
+      font-size: 8px
         

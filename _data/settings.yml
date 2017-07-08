@@ -9,8 +9,8 @@ email: nutmeg024@gmail.com
 
 menu:
 - {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
+- {name: Gallery, url: '#work'}
+- {name: Work, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
