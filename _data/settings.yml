@@ -58,12 +58,12 @@ skills:
 # Work Section
 
 projects:
-- {name: Architectural, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Architecture, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: City-IN, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Landscape, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: newborn, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Close-up, folder: 'proj-4', file: 'work/proj-4.html'}
 - {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Eartbound-Beauty, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Eartbound, folder: 'proj-6', file: 'work/proj-6.html'}
 - {name: weddings, folder: 'proj-7', file: 'work/proj-7.html'}
 - {name: Candid, folder: 'proj-8', file: 'work/proj-8.html'}
 

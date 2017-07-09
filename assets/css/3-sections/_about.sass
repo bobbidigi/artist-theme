@@ -100,6 +100,7 @@
     +size(50px)
     margin: 10vh 5vh
     display: inline-block
+    
   svg
     max-width: 50px
     
@@ -179,8 +180,46 @@
     
 @media screen and (max-width: 380px)
   [class^="icon-"]
-    +size(30px)
-    margin: 4vh 2vh 
+    +size(28px)
+    margin: 3vh 1.5vh 
     
   svg
-    max-width: 30px
+    max-width: 28px
+
+@media screen and (max-width: 350px)    
+  .skill-lockup
+    max-width: 270px
+    margin: 50px auto
+    color: #999
+    +clearfix
+
+
+    .skill-unit
+      width: 135px
+      float: left
+
+    .skill-icons
+      font-size: 0
+      margin: 1.5px 0 15px
+
+      span
+        display: inline-block
+        +size(7px)
+        background-color: $accent
+        margin-right: 4px
+        border-radius: 50%
+
+        &:after
+          content: ''
+          display: block
+          +size(5px)
+          background: #fff
+          border-radius: 50%
+          margin: 1px
+        
+    .skill-label
+      font-size: 11.5px
+        
+         
+    
+    
