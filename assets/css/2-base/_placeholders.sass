@@ -4,6 +4,12 @@
     weight: 700
   text-transform: uppercase
 
+%xsmall-bold
+  font:
+    size: 13px
+    weight: 600
+  text-transform: capitalize
+    
 %background-image
   background:
     repeat: no-repeat, no-repeat
@@ -11,6 +17,19 @@
     position: 30px 50px, 50% 60%
     blend-mode: overlay, normal
 
+@media screen and (max-width: 780px)
+        
+  %small-bold
+    font:
+      size: 13px
+      weight: 600
+    text-transform: capitalize    
+    
+  %xsmall-bold
+    font:
+      size: 12px
+      weight: 500        
+    
 @media screen and (max-width: 440px)
     
   %background-image
@@ -23,7 +42,10 @@
   %small-bold
     font:
       size: 12px
-      weight: 700
-      text-transform: capitalize    
+      weight: 575
+    text-transform: capitalize    
     
-    
+  %xsmall-bold
+    font:
+      size: 11px
+      weight: 400    

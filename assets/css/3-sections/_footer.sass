@@ -11,18 +11,16 @@ footer
       margin-left: 80px
 
       .copyright
+        @extend %xsmall-bold
         margin: 0
         text-align: left
-        text-transform: capitalize
-        font-size: 12px
         color: $documentBackgroundColor   
         padding-top: 2em
         
       #dev
+        @extend %xsmall-bold
         margin: 0
         text-align: left
-        text-transform: capitalize
-        font-size: 12px
         color: $documentBackgroundColor
         transition: all .2s ease-in-out
         
@@ -50,43 +48,34 @@ footer
       
     .content-wrap
       margin-left: 40px
-        
-      nav
             
-        a
-          color: $documentBackgroundColor
+      a
+        color: $documentBackgroundColor
+        margin-right: 20px
     
       .copyright
-        margin-bottom: -10px   
+        margin-bottom: -10px
         
-@media screen and (max-width: 540px)
-
+        
+  @media screen and (max-width: 540px)
+    
   .lockup
+    background-color: rgba(0,0,0,0.2)
+    padding: 40px 0px
       
     .content-wrap
-      margin-left: 20px    
+      margin-left: 40px
     
-      nav
-            
-        a
-          margin-right: 10px
-          font-size: 13px
+      a
+        margin-right: 10px
+        font-size: 13px
         
-      .copyright
-        font-size: 10px
-        
-@media screen and (max-width: 440px)
-    
-  .lockup
+  @media screen and (max-width: 440px)
       
     .content-wrap    
       margin-left: 10px
-    
-      nav
-            
-        a
-          margin-right: 4px
-          font-size: 10px
+        
+      a
+        margin-right: 4px
+        font-size: 10px
        
-    .copyright
-      font-size: 8px
