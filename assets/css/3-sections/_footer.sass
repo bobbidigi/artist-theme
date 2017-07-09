@@ -15,7 +15,7 @@ footer
         text-align: left
         text-transform: capitalize
         font-size: 12px
-        color: fff   
+        color: $documentBackgroundColor   
         padding-top: 2em
         
       #dev
@@ -23,7 +23,12 @@ footer
         text-align: left
         text-transform: capitalize
         font-size: 12px
-        color: fff
+        color: $documentBackgroundColor
+        transition: all .2s ease-in-out
+        
+        &:hover
+          color: $accent
+          transform: scale(1.1)
         
       a
         @extend %small-bold
@@ -52,8 +57,7 @@ footer
           color: $documentBackgroundColor
     
       .copyright
-        margin-bottom: -10px
-        
+        margin-bottom: -10px   
         
 @media screen and (max-width: 540px)
 
@@ -65,12 +69,10 @@ footer
       nav
             
         a
-          color: $documentBackgroundColor
           margin-right: 10px
           font-size: 13px
-       
+        
       .copyright
-        color: $documentBackgroundColor
         font-size: 10px
         
 @media screen and (max-width: 440px)
@@ -83,10 +85,8 @@ footer
       nav
             
         a
-          color: $documentBackgroundColor
           margin-right: 4px
           font-size: 10px
        
     .copyright
       font-size: 8px
-        
