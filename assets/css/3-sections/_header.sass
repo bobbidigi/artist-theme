@@ -21,13 +21,14 @@ header
     a
       display: inline-block
       margin-left: 20px
-
       color: rgba(0,0,0,0.7)
       @extend %small-bold
+      transition: all .2s ease-in-out
 
       &:hover
-        color: rgba(0,0,0,1)
-
+        color: $accent
+        transform: scale(1.1)
+    
   h1
     text-align: center
     font:

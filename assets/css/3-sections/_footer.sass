@@ -12,21 +12,33 @@ footer
 
       .copyright
         margin: 0
-        text-transform: uppercase
+        text-align: left
+        text-transform: capitalize
         font-size: 12px
-        color: fff    
+        color: fff   
+        padding-top: 2em
+        
+      #dev
+        margin: 0
+        text-align: left
+        text-transform: capitalize
+        font-size: 12px
+        color: fff
         
       a
         @extend %small-bold
         color: rgba(0,0,0,0.5)
         display: inline-block
         margin-right: 30px
+        transition: all .2s ease-in-out
 
         &:hover
-          color: rgba(0,0,0,0.7)
+          color: $accent
+          transform: scale(1.1)
         
-  @media screen and (max-width: 780px)
-    
+        
+  @media screen and (max-width: 780px)  
+
   .lockup
     background-color: rgba(0,0,0,0.2)
     padding: 50px 0px
@@ -40,7 +52,8 @@ footer
           color: $documentBackgroundColor
     
       .copyright
-        color: $documentBackgroundColor
+        margin-bottom: -10px
+        
         
 @media screen and (max-width: 540px)
 
@@ -54,7 +67,7 @@ footer
         a
           color: $documentBackgroundColor
           margin-right: 10px
-          font-size: 12px
+          font-size: 13px
        
       .copyright
         color: $documentBackgroundColor
