@@ -58,6 +58,11 @@
 
     @media screen and (max-width: 760px)
       width: 50%
+    
+    .start    
+      z-index: 2
+      @extend %animationstart_#{$mobileAnimation}
+      @extend %#{$mobileAnimation}
 
     .thumb-overlay
       +position(absolute)
@@ -67,7 +72,7 @@
       background: fade-out($accent, 0.1)
       text-align: center
       @extend %animationstart_#{$animation}
-
+    
       strong
         display: block
         padding: 0 9%
@@ -128,3 +133,6 @@
 
     h4
       margin-left: 60px
+
+    
+  
