@@ -64,7 +64,7 @@ function  workLoad() {
 
 // Returns true if the specified element has been scrolled into the viewport.
 
-function isElementInViewport(elem) {
+/*function isElementInViewport(elem) {
     var $elem = $(elem);
 
     // Get the scroll position of the page.
@@ -99,12 +99,10 @@ function checkAnimation() {
 }
 }
 
-
-
 // Capture scroll events
 $(window).scroll(function(){
     checkAnimation();
-});
+});*/
 
 /*enter: function() {
         $elem.addClass('start');
@@ -112,6 +110,7 @@ $(window).scroll(function(){
     exit: function() {  // optionally
         $elem.removeClass('start');
     }*/
+
 
 function clientStuff() {
 
