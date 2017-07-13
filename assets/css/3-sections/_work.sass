@@ -51,7 +51,7 @@
 
     .thumb-unit
       display: block
-      overflow: hidden
+      /*overflow: hidden
 
       img
         display: block
@@ -60,11 +60,6 @@
     @media screen and (max-width: 760px)
       width: 50%
     
-    .animate    
-      z-index: 2
-      background: fade-out($accent, .2)
-      @extend %#{$animation}
-
     .thumb-overlay
       +position(absolute)
       +align-items(center)
@@ -73,8 +68,7 @@
       background: fade-out($accent, 1)   
       text-align: center
       @extend %animationstart_#{$animation}
-      transition: 200ms all ease-in
-    
+      
       strong
         display: block
         padding: 0 9%
@@ -84,13 +78,18 @@
           size: 24px
         text-transform: uppercase
         line-height: 1.2
+        
+    .animate-thumb    
+      z-index: 2
+      background: fade-out($accent, .2)
+      @extend %#{$animation}
 
     &:hover
       z-index: 2
+    
       .thumb-overlay
-        background: fade-out($accent, 0.2)
+        background: fade-out($accent, .2)
         @extend %#{$animation}
-        
 
 .work-container
   max-width: 600px
