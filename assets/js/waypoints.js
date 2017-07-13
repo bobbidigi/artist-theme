@@ -6,4 +6,4 @@ $thumbOverlay.waypoint(function (direction) {
   } else {
     $thumbOverlay.removeClass('animate'); 
   }
-}, { offset: '50%' });
+}, { offset: '25%' });
