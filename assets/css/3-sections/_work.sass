@@ -1,3 +1,4 @@
+
 .section-work
   overflow-x: hidden
 
@@ -59,10 +60,9 @@
     @media screen and (max-width: 760px)
       width: 50%
     
-    .start    
+    .animate    
       z-index: 2
-      @extend %animationstart_#{$mobileAnimation}
-      @extend %#{$mobileAnimation}
+      @extend %#{$animation}
 
     .thumb-overlay
       +position(absolute)

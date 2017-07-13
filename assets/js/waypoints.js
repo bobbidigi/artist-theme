@@ -1,5 +1,9 @@
 var $thumbOverlay = $('.thumb-overlay');
 
-$thumbOverlay.waypoint(function () {
-    $thumbOverlay.addClass('start');
-}, {offset: '50%' });
+$thumbOverlay.waypoint(function (direction) {
+  if (direction == 'down') {
+    $thumbOverlay.addClass('animate');
+  } else {
+    $thumbOverlay.removeClass('animate'); 
+  }
+}, { offset: '50%' });

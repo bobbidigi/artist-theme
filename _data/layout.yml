@@ -1,7 +1,7 @@
 # Layout settings
 
 animation: "bounceOut"
-mobileAnimation: "bounceInRight"
+mobileAnimation: "leftRight"
 # Images
 
 logo: "logo.svg"
