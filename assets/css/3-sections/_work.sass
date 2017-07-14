@@ -67,6 +67,7 @@
       +display(flex)
       background: fade-out($accent, 1)   
       text-align: center
+      +transition(1s)
       @extend %animationstart_#{$animation}
       
       strong
@@ -84,6 +85,9 @@
       background: fade-out($accent, .2)
       @extend %#{$animation}
 
+    .fadeout-thumb
+      background: fade-out($accent, 1)
+    
     &:hover
       z-index: 2
     
