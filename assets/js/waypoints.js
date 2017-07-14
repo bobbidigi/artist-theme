@@ -1,5 +1,5 @@
 //adds animate-thumb class when in view
-//adds fadeout-thumb after 5 s
+//adds fadeout-thumb after 3 s
 var $thumbOverlay = $('.thumb-overlay');
 
 $thumbOverlay.waypoint(function (direction) {
@@ -7,11 +7,11 @@ $thumbOverlay.waypoint(function (direction) {
     $thumbOverlay.addClass('animate-thumb');
     setTimeout(function() {
     $thumbOverlay.addClass('fadeout-thumb');
-    },5000);  
+    },3000);  
   } else {
     $thumbOverlay.removeClass('animate-thumb');  
     $thumbOverlay.removeClass('fadeout-thumb');  
   }
      
-}, { offset: '25%' });
+}, { offset: '65%' });
 

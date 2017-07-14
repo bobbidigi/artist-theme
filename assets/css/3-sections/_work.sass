@@ -75,18 +75,24 @@
         padding: 0 9%
         color: white
         font:
-          weight: 300
-          size: 24px
+          weight: 400
+          size: 22px
         text-transform: uppercase
         line-height: 1.2
+        margin-left: 0%
+        +transition(500ms)
         
     .animate-thumb    
-      z-index: 2
+      //z-index: 2
       background: fade-out($accent, .2)
       @extend %#{$animation}
 
     .fadeout-thumb
       background: fade-out($accent, 1)
+      
+      strong
+        color: cornflowerblue
+        margin-left: 200%
     
     &:hover
       z-index: 2
@@ -94,6 +100,10 @@
       .thumb-overlay
         background: fade-out($accent, .2)
         @extend %#{$animation}
+
+      strong
+        color: white
+        margin-left: 0%
 
 .work-container
   max-width: 600px
