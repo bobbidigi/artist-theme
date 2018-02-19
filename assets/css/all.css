@@ -1111,9 +1111,12 @@ footer {
       .thumb-container label .thumb-unit img {
         display: block;
         max-width: 100%; }
-    @media screen and (max-width: 760px) {
+
+ @media screen and (max-width: 760px) {
       .thumb-container label {
-        width: 50%; } }
+        width: 100%; 
+        margin: 1em .5em}
+}
     .thumb-container label .thumb-overlay {
       position: absolute;
       -webkit-box-align: center;
