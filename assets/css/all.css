@@ -1115,7 +1115,12 @@ footer {
  @media screen and (max-width: 760px) {
       .thumb-container label{
         width: 100%;
+        float: none;  
         padding-bottom: .5em;}
+     .thumb-unit img{
+        width: 100%;
+        float: none;
+        margin: 0 auto;}
 }
     .thumb-container label .thumb-overlay {
       position: absolute;
