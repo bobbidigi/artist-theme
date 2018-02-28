@@ -43,22 +43,22 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(http://i.imgur.com/K3mPv14.jpg) 
+  background-image: url(https://images.pexels.com/photos/110472/pexels-photo-110472.jpeg?h=350&auto=compress&cs=tinysrgb) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(http://i.imgur.com/SBEmFpv.jpg);
+  background-image: url(https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?h=350&auto=compress&cs=tinysrgb);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(http://i.imgur.com/emvhOnb.jpg);
+  background-image: url(https://images.pexels.com/photos/175765/pexels-photo-175765.jpeg?h=350&auto=compress&cs=tinysrgb);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
+  background-image: url(https://images.pexels.com/photos/6805/fashion-men-vintage-colorful.jpg?h=350&auto=compress&cs=tinysrgb);
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
+  background-image: url(https://images.pexels.com/photos/35981/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb);
   animation-delay: 40s; 
 }
 
